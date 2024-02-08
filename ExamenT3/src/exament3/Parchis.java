@@ -3,19 +3,33 @@ package exament3;
 import java.util.Random;
 
 public class Parchis {
+	/**
+	 * Constante para el tamaño del tablero
+	 */
 	public static final int TAM_TABLERO = 10;
-
-	// Variable dado1
+	/**
+	 * Variable para guardar el valor del dado1
+	 */
 	static int dado1;
-	// Variable dado1
+	/**
+	 * Variable para guardar el valor del dado2
+	 */
 	static int dado2;
-	// Variable fichaJ1
+	/**
+	 * Variable para guardar el valor de fichaJ1
+	 */
 	int fichaJ1=0;
-	// Variable fichaJ2
+	/**
+	 * Variable para guardar el valor de fichaJ2
+	 */
 	int fichaJ2=0;
-	// Variable nomJ1
-	String nomJ1="";
-	// Variable nomJ2
+	/**
+	 * Variable para guardar el valor de nomJ1
+	 */
+	String nomJ1=""; 
+	/**
+	 * Variable para guardar el valor de nomJ2
+	 */
 	String nomJ2="";
 
 	public Parchis() {
